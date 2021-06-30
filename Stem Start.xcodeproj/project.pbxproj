@@ -14,6 +14,10 @@
 		A808E38D268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A808E38B268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld */; };
 		A808E38F268BAC3F0058B2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A808E38E268BAC3F0058B2E7 /* Assets.xcassets */; };
 		A808E392268BAC3F0058B2E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A808E390268BAC3F0058B2E7 /* LaunchScreen.storyboard */; };
+		A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A1268BE6700058B2E7 /* NoteCell.swift */; };
+		A808E3A4268BE6890058B2E7 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A3268BE6890058B2E7 /* NoteTableView.swift */; };
+		A808E3A6268BE70C0058B2E7 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A5268BE70C0058B2E7 /* NoteDetailVC.swift */; };
+		A808E3A8268BECEB0058B2E7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A7268BECEB0058B2E7 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		A808E38E268BAC3F0058B2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A808E391268BAC3F0058B2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A808E393268BAC3F0058B2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A808E3A1268BE6700058B2E7 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		A808E3A3268BE6890058B2E7 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
+		A808E3A5268BE70C0058B2E7 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
+		A808E3A7268BECEB0058B2E7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				A808E390268BAC3F0058B2E7 /* LaunchScreen.storyboard */,
 				A808E393268BAC3F0058B2E7 /* Info.plist */,
 				A808E38B268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld */,
+				A808E3A1268BE6700058B2E7 /* NoteCell.swift */,
+				A808E3A3268BE6890058B2E7 /* NoteTableView.swift */,
+				A808E3A5268BE70C0058B2E7 /* NoteDetailVC.swift */,
+				A808E3A7268BECEB0058B2E7 /* Note.swift */,
 			);
 			path = "Stem Start";
 			sourceTree = "<group>";
@@ -141,7 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A808E387268BAC3E0058B2E7 /* ViewController.swift in Sources */,
+				A808E3A6268BE70C0058B2E7 /* NoteDetailVC.swift in Sources */,
+				A808E3A4268BE6890058B2E7 /* NoteTableView.swift in Sources */,
+				A808E3A8268BECEB0058B2E7 /* Note.swift in Sources */,
 				A808E38D268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld in Sources */,
+				A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */,
 				A808E383268BAC3E0058B2E7 /* AppDelegate.swift in Sources */,
 				A808E385268BAC3E0058B2E7 /* SceneDelegate.swift in Sources */,
 			);
