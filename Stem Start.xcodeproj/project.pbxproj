@@ -18,6 +18,9 @@
 		A808E3A4268BE6890058B2E7 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A3268BE6890058B2E7 /* NoteTableView.swift */; };
 		A808E3A6268BE70C0058B2E7 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A5268BE70C0058B2E7 /* NoteDetailVC.swift */; };
 		A808E3A8268BECEB0058B2E7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A7268BECEB0058B2E7 /* Note.swift */; };
+		A808E3AA268C19A60058B2E7 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3A9268C19A60058B2E7 /* TechnologyViewController.swift */; };
+		A808E3AC268C19D90058B2E7 /* EngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3AB268C19D90058B2E7 /* EngineeringViewController.swift */; };
+		A808E3AE268C19E70058B2E7 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3AD268C19E70058B2E7 /* MathViewController.swift */; };
 		BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7159F268C092A0044F56E /* ScienceViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		A808E3A3268BE6890058B2E7 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
 		A808E3A5268BE70C0058B2E7 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
 		A808E3A7268BECEB0058B2E7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A808E3A9268C19A60058B2E7 /* TechnologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyViewController.swift; sourceTree = "<group>"; };
+		A808E3AB268C19D90058B2E7 /* EngineeringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringViewController.swift; sourceTree = "<group>"; };
+		A808E3AD268C19E70058B2E7 /* MathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
 		BBC7159F268C092A0044F56E /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +87,9 @@
 				A808E3A5268BE70C0058B2E7 /* NoteDetailVC.swift */,
 				A808E3A7268BECEB0058B2E7 /* Note.swift */,
 				BBC7159F268C092A0044F56E /* ScienceViewController.swift */,
+				A808E3A9268C19A60058B2E7 /* TechnologyViewController.swift */,
+				A808E3AB268C19D90058B2E7 /* EngineeringViewController.swift */,
+				A808E3AD268C19E70058B2E7 /* MathViewController.swift */,
 			);
 			path = "Stem Start";
 			sourceTree = "<group>";
@@ -155,15 +164,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A808E3AA268C19A60058B2E7 /* TechnologyViewController.swift in Sources */,
 				A808E387268BAC3E0058B2E7 /* ViewController.swift in Sources */,
 				A808E3A6268BE70C0058B2E7 /* NoteDetailVC.swift in Sources */,
 				A808E3A4268BE6890058B2E7 /* NoteTableView.swift in Sources */,
+				A808E3AE268C19E70058B2E7 /* MathViewController.swift in Sources */,
 				A808E3A8268BECEB0058B2E7 /* Note.swift in Sources */,
 				A808E38D268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld in Sources */,
 				A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */,
 				A808E383268BAC3E0058B2E7 /* AppDelegate.swift in Sources */,
 				BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */,
 				A808E385268BAC3E0058B2E7 /* SceneDelegate.swift in Sources */,
+				A808E3AC268C19D90058B2E7 /* EngineeringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
