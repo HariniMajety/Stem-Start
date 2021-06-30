@@ -13,41 +13,150 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stem_Start" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfR-KV-Qr6">
+                                <rect key="frame" x="0.0" y="70" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.043769658058488356" green="0.054856964962460508" blue="0.052263229310664253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.25531768684105033" green="0.31999229654981853" blue="0.30486248708206198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="28"/>
+                                    <color key="textColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="gyl-zM-7tm">
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Science" id="PEd-wa-n85">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <segue destination="H2I-kV-gH1" kind="show" id="Q4l-O6-Gfs"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Technology" id="Gom-Yi-g8a">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <rightBarButtonItems>
+                                            <barButtonItem image="square.and.pencil" catalog="system" style="plain" id="GXN-gq-gCC">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <segue destination="kWF-LR-Fo4" kind="show" id="odS-Sr-yDP"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Math" id="5Yf-sf-Rtd">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Engineering" id="zcc-vj-gK3">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem1" translatesAutoresizingMaskIntoConstraints="NO" id="c89-kH-EtU">
+                                <rect key="frame" x="204" y="385" width="217" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem4" translatesAutoresizingMaskIntoConstraints="NO" id="aXY-3B-iNM">
+                                <rect key="frame" x="-9" y="288" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem3" translatesAutoresizingMaskIntoConstraints="NO" id="KQh-E9-iev">
+                                <rect key="frame" x="20" y="424" width="197" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem5" translatesAutoresizingMaskIntoConstraints="NO" id="ISE-rn-1ug">
+                                <rect key="frame" x="210" y="526" width="204" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem2" translatesAutoresizingMaskIntoConstraints="NO" id="PvA-pv-oKo">
+                                <rect key="frame" x="0.0" y="468" width="186" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STEM Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXR-ms-ggP">
-                                <rect key="frame" x="111" y="98" width="196" height="41"/>
+                                <rect key="frame" x="109" y="161" width="196" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" red="0.58856496004143144" green="0.58856496004143144" blue="0.58856496004143144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.6036873249092487" green="0.57604089325976593" blue="0.55861334752302527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vo8-Oy-KHb">
-                                <rect key="frame" x="150" y="469" width="82" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go to Notes"/>
-                                <connections>
-                                    <segue destination="MvG-Uq-eht" kind="show" id="chc-Sq-cj2"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="THIS IS HOMEPAGE - ONCE NAV BAR IS MADE &quot;GO TO NOTES&quot; BUTTON WILL BE MOVED TO IT, FOR NOW LEAVE ON MAIN PAGE" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bHE-Kk-F7j">
-                                <rect key="frame" x="89" y="199" width="240" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pO9-aJ-CLu"/>
+                    <connections>
+                        <segue destination="H2I-kV-gH1" kind="show" id="AlZ-bX-A8Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="21.739130434782609" y="91.741071428571431"/>
+        </scene>
+        <!--Science View Controller-->
+        <scene sceneID="rNd-c5-dAt">
+            <objects>
+                <viewController id="H2I-kV-gH1" customClass="ScienceViewController" customModule="Stem_Start" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G1M-Cs-sqT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="88M-Q3-Qf6">
+                                <rect key="frame" x="0.0" y="26" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.2553176868" green="0.3199922965" blue="0.30486248710000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                    <color key="textColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem id="L5U-j3-Wzt">
+                                        <nil key="title"/>
+                                        <leftBarButtonItems>
+                                            <barButtonItem title="Item" image="arrowshape.turn.up.backward" catalog="system" id="qVo-to-YXw">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="iHw-AC-cB2"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem title="Technology" id="joT-a6-f1D">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </leftBarButtonItems>
+                                        <rightBarButtonItems>
+                                            <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="4rN-SE-8Ff">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Math" id="7vY-lQ-KhD">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                            <barButtonItem title="Engineering" id="YoT-z4-Vcu">
+                                                <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Science Field" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hu0-CA-q9l">
+                                <rect key="frame" x="97" y="115" width="220" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="35"/>
+                                <color key="textColor" red="0.58856496000000003" green="0.58856496000000003" blue="0.58856496000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bf3-FR-rBE"/>
+                        <color key="backgroundColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="o7K-E3-jDb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89v-S1-zyE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22" y="846"/>
         </scene>
         <!--Notes-->
         <scene sceneID="ogQ-Cj-97K">
@@ -172,7 +281,7 @@
                 <navigationController id="MvG-Uq-eht" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Vs8-OG-5dO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MBf-te-xuE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -185,17 +294,23 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nYZ-5d-UGj"/>
+        <segue reference="u4w-Lw-feW"/>
+        <segue reference="odS-Sr-yDP"/>
+        <segue reference="AlZ-bX-A8Z"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Stem1" width="225" height="225"/>
+        <image name="Stem2" width="767" height="384"/>
+        <image name="Stem3" width="300" height="168"/>
+        <image name="Stem4" width="1600" height="900"/>
+        <image name="Stem5" width="1181" height="660"/>
+        <image name="arrowshape.turn.up.backward" catalog="system" width="128" height="106"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
