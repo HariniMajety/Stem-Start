@@ -10,11 +10,10 @@ import CoreData
 
 class NoteDetailVC: UIViewController
 {
-    var selectedNote: Note? = nil
-    
     @IBOutlet weak var titleTF: UITextField!
     @IBOutlet weak var descTV: UITextView!
     
+    var selectedNote: Note? = nil
     
     override func viewDidLoad()
     {
@@ -72,6 +71,7 @@ class NoteDetailVC: UIViewController
             }
         }
     }
+    
     
     @IBAction func DeleteNote(_ sender: Any)
     {

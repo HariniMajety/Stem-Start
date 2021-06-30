@@ -27,6 +27,8 @@ class NoteTableView: UITableViewController
         return noDeleteNoteList
     }
     
+    //no append
+    
     override func viewDidLoad()
     {
         if(firstLoad)
@@ -40,7 +42,6 @@ class NoteTableView: UITableViewController
                 for result in results
                 {
                     let note = result as! Note
-                    noteList.append(note)
                 }
             }
             catch
