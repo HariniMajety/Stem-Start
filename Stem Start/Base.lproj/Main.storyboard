@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pVS-sD-gNK">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,7 +11,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="zdA-mK-2BQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hgg-QK-98a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="pVS-sD-gNK" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V7c-E5-7Lw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -24,17 +23,17 @@
                         <segue destination="Blf-ov-PH3" kind="relationship" relationship="viewControllers" id="raF-yP-grH"/>
                         <segue destination="amw-9D-64w" kind="relationship" relationship="viewControllers" id="Lfn-Qg-fL4"/>
                         <segue destination="Vaq-GB-JRb" kind="relationship" relationship="viewControllers" id="q6P-jA-T09"/>
-                        <segue destination="q3i-mO-wSI" kind="relationship" relationship="viewControllers" id="1ei-cS-Xgy"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hgg-QK-98a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2517" y="212"/>
         </scene>
-        <!--Science-->
+        <!--Science -->
         <scene sceneID="7lh-FA-FO3">
             <objects>
                 <navigationController id="pWo-ug-Lck" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Science" selectedImage="scale.3d" catalog="system" id="LK8-xt-6pQ"/>
+                    <tabBarItem key="tabBarItem" title="Science " image="scale.3d" catalog="system" selectedImage="scale.3d" id="LK8-xt-6pQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yso-DO-Gt8">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -252,6 +251,14 @@
                                 <rect key="frame" x="305" y="588" width="89" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJa-0T-eye">
+                                <rect key="frame" x="162" y="286" width="95" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Opportunities"/>
+                                <connections>
+                                    <segue destination="TCk-eg-Cfi" kind="show" id="q98-XW-aSw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C9f-2D-ytj"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -278,7 +285,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteCellID" id="cz5-HC-cG9" customClass="NoteCell" customModule="Stem_Start" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="90"/>
+                                <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cz5-HC-cG9" id="euo-Qd-rBF">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
@@ -408,7 +415,7 @@
         <scene sceneID="sZ4-uP-p4D">
             <objects>
                 <navigationController id="Blf-ov-PH3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Technology" selectedImage="puzzlepiece.fill" catalog="system" id="lUV-fR-eAv"/>
+                    <tabBarItem key="tabBarItem" title="Technology" image="puzzlepiece.fill" catalog="system" selectedImage="puzzlepiece.fill" id="lUV-fR-eAv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="97d-MM-hZD">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -425,7 +432,7 @@
         <scene sceneID="3Xz-bR-9qT">
             <objects>
                 <navigationController id="amw-9D-64w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Engineering" selectedImage="wrench.and.screwdriver" catalog="system" id="h20-NL-mzz"/>
+                    <tabBarItem key="tabBarItem" title="Engineering" image="wrench.and.screwdriver" catalog="system" selectedImage="wrench.and.screwdriver" id="h20-NL-mzz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CCU-fd-W8b">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -442,7 +449,7 @@
         <scene sceneID="OhG-0h-7U2">
             <objects>
                 <navigationController id="Vaq-GB-JRb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Math" selectedImage="book.closed.fill" catalog="system" id="XJB-bj-Z1k"/>
+                    <tabBarItem key="tabBarItem" title="Math" image="book.closed.fill" catalog="system" selectedImage="book.closed.fill" id="XJB-bj-Z1k"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yKY-Nw-1Ef">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -459,7 +466,7 @@
         <scene sceneID="nvh-Nc-rOR">
             <objects>
                 <navigationController id="dRN-Eq-EiW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" selectedImage="homekit" catalog="system" id="HOP-kd-tQz"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" selectedImage="homekit" id="HOP-kd-tQz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3z6-DH-AyJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -471,23 +478,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gp0-D9-Mm8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3961" y="976"/>
-        </scene>
-        <!--Opportunities-->
-        <scene sceneID="xoX-sR-fUg">
-            <objects>
-                <navigationController id="q3i-mO-wSI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Opportunities" selectedImage="wand.and.rays" catalog="system" id="tJa-qM-c0k"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="M66-ZJ-bBW">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="TCk-eg-Cfi" kind="relationship" relationship="rootViewController" id="sNv-dt-ARM"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y6x-Xu-Ug9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-112" y="976"/>
         </scene>
         <!--Opportunities-->
         <scene sceneID="621-pz-YiC">
@@ -509,6 +499,7 @@
                         <viewLayoutGuide key="safeArea" id="Fj2-2j-EJV"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="tJx-77-xIB"/>
                     <navigationItem key="navigationItem" title="Opportunities" id="MQf-h6-I98">
                         <barButtonItem key="rightBarButtonItem" title="Notes" image="square.and.pencil" catalog="system" id="WoE-I8-M2e">
                             <connections>
@@ -519,11 +510,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wh-f4-n6U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-113" y="1692"/>
+            <point key="canvasLocation" x="825" y="1692"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nDC-1O-wvh">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="t3F-Ca-s3o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vGF-IJ-eBI">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TCk-eg-Cfi" kind="relationship" relationship="viewControllers" id="LAe-GQ-81x"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qVX-TD-1JQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-113.04347826086958" y="1691.5178571428571"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jKx-5i-sNe"/>
+        <segue reference="q98-XW-aSw"/>
+        <segue reference="GoI-WY-Qfl"/>
         <segue reference="u4w-Lw-feW"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -540,7 +550,6 @@
         <image name="scale.3d" catalog="system" width="128" height="112"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <image name="trash" catalog="system" width="121" height="128"/>
-        <image name="wand.and.rays" catalog="system" width="128" height="121"/>
         <image name="wrench.and.screwdriver" catalog="system" width="128" height="120"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
