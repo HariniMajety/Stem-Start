@@ -67,6 +67,11 @@
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Science" id="o7K-E3-jDb">
+                        <barButtonItem key="leftBarButtonItem" title="Opportunities" id="5Yn-Sz-x0o">
+                            <connections>
+                                <segue destination="TCk-eg-Cfi" kind="show" id="JWQ-cD-BHr"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Notes" image="square.and.pencil" catalog="system" id="eRE-1t-FSx">
                             <connections>
                                 <segue destination="MvG-Uq-eht" kind="show" id="spS-Yv-hE5"/>
@@ -103,6 +108,11 @@
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Technology" id="QqP-D5-66A">
+                        <barButtonItem key="leftBarButtonItem" title="Opportunities" id="Bfy-wD-zHD">
+                            <connections>
+                                <segue destination="TCk-eg-Cfi" kind="show" id="986-95-0np"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Notes" image="square.and.pencil" catalog="system" id="UZ9-0U-HAu">
                             <connections>
                                 <segue destination="MvG-Uq-eht" kind="show" id="Rpd-0H-2g7"/>
@@ -135,6 +145,11 @@
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Engineering" id="XGs-9f-j5f">
+                        <barButtonItem key="leftBarButtonItem" title="Opportunities" id="zkc-kK-QtA">
+                            <connections>
+                                <segue destination="TCk-eg-Cfi" kind="show" id="iD1-VL-eby"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Notes" image="square.and.pencil" catalog="system" id="lte-TB-7GY">
                             <connections>
                                 <segue destination="MvG-Uq-eht" kind="show" id="fIj-sn-Rhw"/>
@@ -196,6 +211,11 @@
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Math" id="wPl-AF-EbJ">
+                        <barButtonItem key="leftBarButtonItem" title="Opportunities" id="igs-T3-qfL">
+                            <connections>
+                                <segue destination="TCk-eg-Cfi" kind="show" id="u3g-mg-7S7"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Notes" image="square.and.pencil" catalog="system" id="WP0-Z1-wOn">
                             <connections>
                                 <segue destination="MvG-Uq-eht" kind="show" id="pb8-RZ-hKx"/>
@@ -251,19 +271,16 @@
                                 <rect key="frame" x="305" y="588" width="89" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJa-0T-eye">
-                                <rect key="frame" x="162" y="286" width="95" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Opportunities"/>
-                                <connections>
-                                    <segue destination="TCk-eg-Cfi" kind="show" id="q98-XW-aSw"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C9f-2D-ytj"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="Pwl-E9-ybu">
+                        <barButtonItem key="leftBarButtonItem" title="Opportunities" id="SpN-4u-RtA">
+                            <connections>
+                                <segue destination="TCk-eg-Cfi" kind="show" id="wvx-zW-hKk"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Notes" image="square.and.pencil" catalog="system" id="KPo-3a-JzT">
                             <connections>
                                 <segue destination="MvG-Uq-eht" kind="show" id="jKx-5i-sNe"/>
@@ -532,8 +549,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="q98-XW-aSw"/>
-        <segue reference="GoI-WY-Qfl"/>
+        <segue reference="u3g-mg-7S7"/>
+        <segue reference="pb8-RZ-hKx"/>
         <segue reference="u4w-Lw-feW"/>
     </inferredMetricsTieBreakers>
     <resources>
