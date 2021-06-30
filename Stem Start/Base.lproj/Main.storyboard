@@ -16,24 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem1" translatesAutoresizingMaskIntoConstraints="NO" id="c89-kH-EtU">
-                                <rect key="frame" x="204" y="424" width="217" height="157"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem4" translatesAutoresizingMaskIntoConstraints="NO" id="aXY-3B-iNM">
                                 <rect key="frame" x="0.0" y="335" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem3" translatesAutoresizingMaskIntoConstraints="NO" id="KQh-E9-iev">
-                                <rect key="frame" x="20" y="471" width="197" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem5" translatesAutoresizingMaskIntoConstraints="NO" id="ISE-rn-1ug">
-                                <rect key="frame" x="210" y="574" width="204" height="161"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem2" translatesAutoresizingMaskIntoConstraints="NO" id="PvA-pv-oKo">
-                                <rect key="frame" x="20" y="514" width="186" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STEM Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXR-ms-ggP">
@@ -92,6 +76,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stem1" translatesAutoresizingMaskIntoConstraints="NO" id="c89-kH-EtU">
+                                <rect key="frame" x="216" y="389" width="217" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.93333333333333335" green="0.89803921568627454" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -531,20 +519,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="X9K-PL-jSZ"/>
+        <segue reference="Rnc-iG-96d"/>
         <segue reference="u4w-Lw-feW"/>
-        <segue reference="gtt-x7-zyv"/>
-        <segue reference="se1-8k-qqN"/>
-        <segue reference="Gyw-cX-bjl"/>
-        <segue reference="OcT-mV-BGK"/>
+        <segue reference="Cqm-53-WVE"/>
+        <segue reference="A3h-U4-Jfq"/>
+        <segue reference="Wrd-cn-cbB"/>
+        <segue reference="Q4l-O6-Gfs"/>
         <segue reference="H59-pE-nfG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Stem1" width="225" height="225"/>
-        <image name="Stem2" width="767" height="384"/>
-        <image name="Stem3" width="300" height="168"/>
         <image name="Stem4" width="1600" height="900"/>
-        <image name="Stem5" width="1181" height="660"/>
         <image name="arrowshape.turn.up.backward" catalog="system" width="128" height="106"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <image name="trash" catalog="system" width="121" height="128"/>
