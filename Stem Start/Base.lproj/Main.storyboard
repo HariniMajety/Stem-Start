@@ -42,7 +42,7 @@
                                             <barButtonItem image="square.and.pencil" catalog="system" style="plain" id="GXN-gq-gCC">
                                                 <color key="tintColor" red="0.97760039570000001" green="0.93028713190000001" blue="0.89520601799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
-                                                    <segue destination="kWF-LR-Fo4" kind="show" id="odS-Sr-yDP"/>
+                                                    <segue destination="MvG-Uq-eht" kind="show" id="Rnc-iG-96d"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem title="Math" id="5Yf-sf-Rtd">
@@ -281,7 +281,7 @@
                 <navigationController id="MvG-Uq-eht" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Vs8-OG-5dO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MBf-te-xuE">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -295,7 +295,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="u4w-Lw-feW"/>
-        <segue reference="odS-Sr-yDP"/>
         <segue reference="AlZ-bX-A8Z"/>
     </inferredMetricsTieBreakers>
     <resources>
