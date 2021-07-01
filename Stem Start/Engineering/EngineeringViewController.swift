@@ -15,7 +15,35 @@ class EngineeringViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func aeroSpaceEngineer() {
+        let vc = storyboard?.instantiateViewController(identifier: "Aerospace Engineer") as! AerospaceEngineerViewController
+        
+        navigationController?.pushViewController(vc, animated:true)
+        
+    }
+    
+    
+    @IBAction func biomedicalEngineer() {
+        let vc = storyboard?.instantiateViewController(identifier: "Biomedical Engineer") as! BiomedicalEngineerViewController
+        
+        navigationController?.pushViewController(vc, animated:true)
+        
+    }
+    
+    
 
+       
+        
+        
+    
+    
+    @IBAction func chemicalEngineer() {
+        let vc = storyboard?.instantiateViewController(identifier: "Chemical Engineer") as! ChemicalEngineerViewController
+        
+        navigationController?.pushViewController(vc, animated:true)
+        
+    }
+    
     /*
     // MARK: - Navigation
 

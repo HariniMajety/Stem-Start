@@ -21,6 +21,18 @@ class ScienceViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func geologist() {
+        let vc = storyboard?.instantiateViewController(identifier: "Geologist") as! GeologistViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    @IBAction func biologist() {
+        let vc = storyboard?.instantiateViewController(identifier: "Biologist") as! BiologistViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
     
 
