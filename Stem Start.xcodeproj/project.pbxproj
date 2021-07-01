@@ -25,6 +25,14 @@
 		A808E3B7268D63FB0058B2E7 /* DataScientistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3B6268D63FB0058B2E7 /* DataScientistViewController.swift */; };
 		A808E3B9268E10870058B2E7 /* SoftwareDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3B8268E10870058B2E7 /* SoftwareDeveloperViewController.swift */; };
 		A808E3BF268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3BE268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift */; };
+		A808E3C2268E376B0058B2E7 /* MathematicianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C1268E376B0058B2E7 /* MathematicianViewController.swift */; };
+		A808E3C4268E37820058B2E7 /* ProfessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C3268E37820058B2E7 /* ProfessorViewController.swift */; };
+		A808E3C6268E37990058B2E7 /* FinancialAnalystViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C5268E37990058B2E7 /* FinancialAnalystViewController.swift */; };
+		A808E3C8268E38E40058B2E7 /* EducationalPlatformsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C7268E38E40058B2E7 /* EducationalPlatformsViewController.swift */; };
+		A808E3CA268E38F40058B2E7 /* CampsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C9268E38F40058B2E7 /* CampsViewController.swift */; };
+		A808E3CC268E390A0058B2E7 /* InternshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */; };
+		A808E3CE268E3DC80058B2E7 /* OpportunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */; };
+		A8220069268E4AB5006DC9A1 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220068268E4AB5006DC9A1 /* NSAttributedStringExtension.swift */; };
 		A855A87E268E25990008346A /* AerospaceEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A87D268E25990008346A /* AerospaceEngineerViewController.swift */; };
 		A855A880268E2A760008346A /* BiomedicalEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A87F268E2A760008346A /* BiomedicalEngineerViewController.swift */; };
 		A855A884268E2F2A0008346A /* ChemicalEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A883268E2F2A0008346A /* ChemicalEngineerViewController.swift */; };
@@ -54,6 +62,14 @@
 		A808E3B6268D63FB0058B2E7 /* DataScientistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScientistViewController.swift; sourceTree = "<group>"; };
 		A808E3B8268E10870058B2E7 /* SoftwareDeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareDeveloperViewController.swift; sourceTree = "<group>"; };
 		A808E3BE268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentalScientistViewController.swift; sourceTree = "<group>"; };
+		A808E3C1268E376B0058B2E7 /* MathematicianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicianViewController.swift; sourceTree = "<group>"; };
+		A808E3C3268E37820058B2E7 /* ProfessorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorViewController.swift; sourceTree = "<group>"; };
+		A808E3C5268E37990058B2E7 /* FinancialAnalystViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAnalystViewController.swift; sourceTree = "<group>"; };
+		A808E3C7268E38E40058B2E7 /* EducationalPlatformsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationalPlatformsViewController.swift; sourceTree = "<group>"; };
+		A808E3C9268E38F40058B2E7 /* CampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsViewController.swift; sourceTree = "<group>"; };
+		A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipsViewController.swift; sourceTree = "<group>"; };
+		A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunitiesViewController.swift; sourceTree = "<group>"; };
+		A8220068268E4AB5006DC9A1 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 		A855A87D268E25990008346A /* AerospaceEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerospaceEngineerViewController.swift; sourceTree = "<group>"; };
 		A855A87F268E2A760008346A /* BiomedicalEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomedicalEngineerViewController.swift; sourceTree = "<group>"; };
 		A855A883268E2F2A0008346A /* ChemicalEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalEngineerViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +108,7 @@
 		A808E381268BAC3E0058B2E7 /* Stem Start */ = {
 			isa = PBXGroup;
 			children = (
+				A808E3C0268E37300058B2E7 /* Opportunites */,
 				A808E3BD268E13BC0058B2E7 /* Math */,
 				A808E3BC268E13B40058B2E7 /* Engineering */,
 				A808E3BB268E13A40058B2E7 /* Science */,
@@ -157,8 +174,23 @@
 			isa = PBXGroup;
 			children = (
 				A808E3AD268C19E70058B2E7 /* MathViewController.swift */,
+				A808E3C1268E376B0058B2E7 /* MathematicianViewController.swift */,
+				A808E3C3268E37820058B2E7 /* ProfessorViewController.swift */,
+				A808E3C5268E37990058B2E7 /* FinancialAnalystViewController.swift */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		A808E3C0268E37300058B2E7 /* Opportunites */ = {
+			isa = PBXGroup;
+			children = (
+				A808E3C7268E38E40058B2E7 /* EducationalPlatformsViewController.swift */,
+				A808E3C9268E38F40058B2E7 /* CampsViewController.swift */,
+				A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */,
+				A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */,
+				A8220068268E4AB5006DC9A1 /* NSAttributedStringExtension.swift */,
+			);
+			path = Opportunites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A808E3CE268E3DC80058B2E7 /* OpportunitiesViewController.swift in Sources */,
 				A808E3B9268E10870058B2E7 /* SoftwareDeveloperViewController.swift in Sources */,
 				A855A884268E2F2A0008346A /* ChemicalEngineerViewController.swift in Sources */,
 				A808E3AA268C19A60058B2E7 /* TechnologyViewController.swift in Sources */,
@@ -238,19 +271,26 @@
 				A808E3B7268D63FB0058B2E7 /* DataScientistViewController.swift in Sources */,
 				A808E3A6268BE70C0058B2E7 /* NoteDetailVC.swift in Sources */,
 				A808E3A4268BE6890058B2E7 /* NoteTableView.swift in Sources */,
+				A808E3C6268E37990058B2E7 /* FinancialAnalystViewController.swift in Sources */,
+				A808E3C8268E38E40058B2E7 /* EducationalPlatformsViewController.swift in Sources */,
+				A808E3CC268E390A0058B2E7 /* InternshipsViewController.swift in Sources */,
 				A808E3AE268C19E70058B2E7 /* MathViewController.swift in Sources */,
 				A808E3A8268BECEB0058B2E7 /* Note.swift in Sources */,
 				BB8DB877268E20AC00D60504 /* GeologistViewController.swift in Sources */,
 				A808E38D268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld in Sources */,
+				A8220069268E4AB5006DC9A1 /* NSAttributedStringExtension.swift in Sources */,
 				A855A880268E2A760008346A /* BiomedicalEngineerViewController.swift in Sources */,
 				A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */,
 				A808E383268BAC3E0058B2E7 /* AppDelegate.swift in Sources */,
 				BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */,
+				A808E3CA268E38F40058B2E7 /* CampsViewController.swift in Sources */,
 				A808E3BF268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift in Sources */,
+				A808E3C4268E37820058B2E7 /* ProfessorViewController.swift in Sources */,
 				A808E385268BAC3E0058B2E7 /* SceneDelegate.swift in Sources */,
 				A808E3B5268D63ED0058B2E7 /* ITManagerViewController.swift in Sources */,
 				BB8DB875268E1E4F00D60504 /* BiologistViewController.swift in Sources */,
 				A855A87E268E25990008346A /* AerospaceEngineerViewController.swift in Sources */,
+				A808E3C2268E376B0058B2E7 /* MathematicianViewController.swift in Sources */,
 				A808E3AC268C19D90058B2E7 /* EngineeringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

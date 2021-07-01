@@ -15,15 +15,25 @@ class MathViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func mathematician() {
+        let vc = storyboard?.instantiateViewController(identifier: "Mathematician") as! MathematicianViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
-    */
+    
+    @IBAction func professor() {
+        let vc = storyboard?.instantiateViewController(identifier: "Professor") as! ProfessorViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func financialAnalyst() {
+        let vc = storyboard?.instantiateViewController(identifier: "FinancialAnalyst") as! FinancialAnalystViewController
+        
+        navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+
 
 }
