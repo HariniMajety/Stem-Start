@@ -24,6 +24,7 @@
 		A808E3B5268D63ED0058B2E7 /* ITManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3B4268D63ED0058B2E7 /* ITManagerViewController.swift */; };
 		A808E3B7268D63FB0058B2E7 /* DataScientistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3B6268D63FB0058B2E7 /* DataScientistViewController.swift */; };
 		A808E3B9268E10870058B2E7 /* SoftwareDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3B8268E10870058B2E7 /* SoftwareDeveloperViewController.swift */; };
+		A808E3BF268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3BE268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift */; };
 		BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7159F268C092A0044F56E /* ScienceViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		A808E3B4268D63ED0058B2E7 /* ITManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITManagerViewController.swift; sourceTree = "<group>"; };
 		A808E3B6268D63FB0058B2E7 /* DataScientistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScientistViewController.swift; sourceTree = "<group>"; };
 		A808E3B8268E10870058B2E7 /* SoftwareDeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareDeveloperViewController.swift; sourceTree = "<group>"; };
+		A808E3BE268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentalScientistViewController.swift; sourceTree = "<group>"; };
 		BBC7159F268C092A0044F56E /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				BBC7159F268C092A0044F56E /* ScienceViewController.swift */,
+				A808E3BE268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift */,
 			);
 			path = Science;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */,
 				A808E383268BAC3E0058B2E7 /* AppDelegate.swift in Sources */,
 				BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */,
+				A808E3BF268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift in Sources */,
 				A808E385268BAC3E0058B2E7 /* SceneDelegate.swift in Sources */,
 				A808E3B5268D63ED0058B2E7 /* ITManagerViewController.swift in Sources */,
 				A808E3AC268C19D90058B2E7 /* EngineeringViewController.swift in Sources */,

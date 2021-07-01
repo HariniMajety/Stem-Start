@@ -82,6 +82,7 @@
                                 </state>
                                 <connections>
                                     <action selector="dataScientist" destination="1BE-5g-iHY" eventType="touchUpInside" id="mMd-Hj-dUf"/>
+                                    <action selector="enviromentalScientist" destination="H2I-kV-gH1" eventType="touchUpInside" id="OiO-vQ-hQ8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pec-Tg-CfR">
@@ -127,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="-3236.2318840579715" y="1691.5178571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Environmental Scientist View Controller-->
         <scene sceneID="61j-D0-1jO">
             <objects>
-                <viewController id="4CH-va-EAx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EnvironmentalScientist" id="4CH-va-EAx" customClass="EnvironmentalScientistViewController" customModule="Stem_Start" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vl0-0t-iF0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
