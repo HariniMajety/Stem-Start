@@ -183,14 +183,6 @@
                                     <action selector="computerProgrammer" destination="1BE-5g-iHY" eventType="touchUpInside" id="UM1-AL-FSC"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The Technology field has a vast amount of careers! Click on the following buttons to find out more about them!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zYL-qZ-jSn">
-                                <rect key="frame" x="42" y="199" width="216" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZg-Vu-wb8">
                                 <rect key="frame" x="42" y="529" width="96" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -207,6 +199,13 @@
                                     <action selector="itManager" destination="1BE-5g-iHY" eventType="touchUpInside" id="4iH-FW-der"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Technology field has a vast amount of careers! Click on the following buttons to find out more about them!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aC8-pl-cqN">
+                                <rect key="frame" x="20" y="199" width="326" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WK5-bw-UsV"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -295,21 +294,21 @@
                                 <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8bb-My-Z5K">
-                                <rect key="frame" x="13" y="277" width="339" height="127"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkl-RK-vyC">
+                                <rect key="frame" x="13" y="281" width="370" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Job Summary: Mathematicians help organizations by applying mathematical theories and techniques to solve practical problems. They collect data, analyze it and present their findings with the aim of solving practical problems in business, government, engineering and science.                                                     </string>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Education (Minimum Requirement) : Bachelor's Degree in Mathematics, or significant course work in Mathematics. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zGg-Ew-G61">
-                                <rect key="frame" x="13" y="412" width="240" height="110"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education (Minimum Requirement) : Bachelor's Degree in Mathematics, or significant course work in Mathematics. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv0-Rl-ChD">
+                                <rect key="frame" x="8" y="419" width="406" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AYo-5M-SE5"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -329,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bk9-lp-fn9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-971" y="1692"/>
+            <point key="canvasLocation" x="-971.01449275362324" y="1691.5178571428571"/>
         </scene>
         <!--Home-->
         <scene sceneID="vhF-xc-YOG">
@@ -653,8 +652,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="986-95-0np"/>
-        <segue reference="Rpd-0H-2g7"/>
+        <segue reference="u3g-mg-7S7"/>
+        <segue reference="pb8-RZ-hKx"/>
         <segue reference="u4w-Lw-feW"/>
     </inferredMetricsTieBreakers>
     <resources>
