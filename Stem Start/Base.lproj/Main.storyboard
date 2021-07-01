@@ -70,6 +70,7 @@
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="biologistButton:" destination="dP7-ZK-9Ke" eventType="touchUpInside" id="eRe-wG-0fn"/>
                                     <action selector="dataScientist" destination="1BE-5g-iHY" eventType="touchUpInside" id="3Yw-AT-3Gb"/>
                                 </connections>
                             </button>
@@ -96,17 +97,18 @@
                                     <action selector="dataScientist" destination="1BE-5g-iHY" eventType="touchUpInside" id="yYn-hs-jVN"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="technologyIcon" translatesAutoresizingMaskIntoConstraints="NO" id="fb2-9d-bQS">
-                                <rect key="frame" x="170" y="366" width="193" height="165"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Science field has a vast amount of careers! Click on the following buttons to find out more about them!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5T-kV-pZ5">
                                 <rect key="frame" x="7" y="42" width="400" height="363"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                 <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.043769658060000001" green="0.054856964959999997" blue="0.052263229309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fb2-9d-bQS">
+                                <rect key="frame" x="163" y="380.66666666666697" width="188" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.043769658060000001" green="0.054856964959999997" blue="0.052263229309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bf3-FR-rBE"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -125,6 +127,7 @@
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89v-S1-zyE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="dP7-ZK-9Ke" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-3236.2318840579715" y="1691.5178571428571"/>
         </scene>
@@ -179,10 +182,10 @@
             </objects>
             <point key="canvasLocation" x="-2491.304347826087" y="2381.9196428571427"/>
         </scene>
-        <!--View Controller-->
+        <!--Geologist View Controller-->
         <scene sceneID="NyD-kc-3Cg">
             <objects>
-                <viewController id="LRH-14-tjj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Geologist" id="LRH-14-tjj" customClass="GeologistViewController" customModule="Stem_Start" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lhg-nc-1IO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="-2491" y="3757"/>
         </scene>
-        <!--View Controller-->
+        <!--Biologist View Controller-->
         <scene sceneID="Dqm-qx-yJM">
             <objects>
-                <viewController id="Ci5-ae-eb7" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Biologist" id="Ci5-ae-eb7" customClass="BiologistViewController" customModule="Stem_Start" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VLD-Jp-LSx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -803,6 +806,7 @@
         <image name="STEM_5" width="704" height="808"/>
         <image name="STEM_6" width="310" height="310"/>
         <image name="STEM_7" width="1280" height="500"/>
+        <image name="atom" catalog="system" width="119" height="128"/>
         <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="hexagon" width="494" height="505"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
