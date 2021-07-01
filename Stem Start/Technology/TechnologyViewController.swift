@@ -15,16 +15,17 @@ class TechnologyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func computerProgrammer() {
-        let vc =  ComputerProgrammerViewController()
+
+
+    @IBAction func softwareDeveloper() {
+        let vc = storyboard?.instantiateViewController(identifier: "SoftwareDeveloper") as! SoftwareDeveloperViewController
         
         navigationController?.pushViewController(vc, animated: true)
-        
         
     }
  
     @IBAction func itManager() {
-        let vc =  ITManagerViewController()
+        let vc = storyboard?.instantiateViewController(identifier: "ITManager") as! ITManagerViewController
         
         navigationController?.pushViewController(vc, animated: true)
         
@@ -32,7 +33,7 @@ class TechnologyViewController: UIViewController {
     
     
     @IBAction func dataScientist() {
-        let vc =  DataScientistViewController()
+        let vc = storyboard?.instantiateViewController(identifier: "DataScientist") as! DataScientistViewController
         
         navigationController?.pushViewController(vc, animated: true)
         

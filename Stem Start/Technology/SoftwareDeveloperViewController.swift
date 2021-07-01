@@ -1,13 +1,13 @@
 //
-//  ComputerProgrammerViewController.swift
+//  SoftwareDeveloperViewController.swift
 //  Stem Start
 //
-//  Created by  Scholar on 6/30/21.
+//  Created by  Scholar on 7/1/21.
 //
 
 import UIKit
 
-class ComputerProgrammerViewController: UIViewController {
+class SoftwareDeveloperViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
