@@ -32,7 +32,6 @@
 		A808E3CA268E38F40058B2E7 /* CampsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C9268E38F40058B2E7 /* CampsViewController.swift */; };
 		A808E3CC268E390A0058B2E7 /* InternshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */; };
 		A808E3CE268E3DC80058B2E7 /* OpportunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */; };
-		A8220069268E4AB5006DC9A1 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8220068268E4AB5006DC9A1 /* NSAttributedStringExtension.swift */; };
 		A855A87E268E25990008346A /* AerospaceEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A87D268E25990008346A /* AerospaceEngineerViewController.swift */; };
 		A855A880268E2A760008346A /* BiomedicalEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A87F268E2A760008346A /* BiomedicalEngineerViewController.swift */; };
 		A855A884268E2F2A0008346A /* ChemicalEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A883268E2F2A0008346A /* ChemicalEngineerViewController.swift */; };
@@ -69,7 +68,6 @@
 		A808E3C9268E38F40058B2E7 /* CampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsViewController.swift; sourceTree = "<group>"; };
 		A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipsViewController.swift; sourceTree = "<group>"; };
 		A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunitiesViewController.swift; sourceTree = "<group>"; };
-		A8220068268E4AB5006DC9A1 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 		A855A87D268E25990008346A /* AerospaceEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerospaceEngineerViewController.swift; sourceTree = "<group>"; };
 		A855A87F268E2A760008346A /* BiomedicalEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomedicalEngineerViewController.swift; sourceTree = "<group>"; };
 		A855A883268E2F2A0008346A /* ChemicalEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalEngineerViewController.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 				A808E3C9268E38F40058B2E7 /* CampsViewController.swift */,
 				A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */,
 				A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */,
-				A8220068268E4AB5006DC9A1 /* NSAttributedStringExtension.swift */,
 			);
 			path = Opportunites;
 			sourceTree = "<group>";
@@ -278,7 +275,6 @@
 				A808E3A8268BECEB0058B2E7 /* Note.swift in Sources */,
 				BB8DB877268E20AC00D60504 /* GeologistViewController.swift in Sources */,
 				A808E38D268BAC3E0058B2E7 /* Stem_Start.xcdatamodeld in Sources */,
-				A8220069268E4AB5006DC9A1 /* NSAttributedStringExtension.swift in Sources */,
 				A855A880268E2A760008346A /* BiomedicalEngineerViewController.swift in Sources */,
 				A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */,
 				A808E383268BAC3E0058B2E7 /* AppDelegate.swift in Sources */,
