@@ -29,12 +29,12 @@
 		A808E3C4268E37820058B2E7 /* ProfessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C3268E37820058B2E7 /* ProfessorViewController.swift */; };
 		A808E3C6268E37990058B2E7 /* FinancialAnalystViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C5268E37990058B2E7 /* FinancialAnalystViewController.swift */; };
 		A808E3C8268E38E40058B2E7 /* EducationalPlatformsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C7268E38E40058B2E7 /* EducationalPlatformsViewController.swift */; };
-		A808E3CA268E38F40058B2E7 /* CampsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3C9268E38F40058B2E7 /* CampsViewController.swift */; };
 		A808E3CC268E390A0058B2E7 /* InternshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */; };
 		A808E3CE268E3DC80058B2E7 /* OpportunitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */; };
 		A855A87E268E25990008346A /* AerospaceEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A87D268E25990008346A /* AerospaceEngineerViewController.swift */; };
 		A855A880268E2A760008346A /* BiomedicalEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A87F268E2A760008346A /* BiomedicalEngineerViewController.swift */; };
 		A855A884268E2F2A0008346A /* ChemicalEngineerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A883268E2F2A0008346A /* ChemicalEngineerViewController.swift */; };
+		A855A886268EAB6B0008346A /* CampsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855A885268EAB6B0008346A /* CampsViewController.swift */; };
 		BB8DB875268E1E4F00D60504 /* BiologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DB874268E1E4F00D60504 /* BiologistViewController.swift */; };
 		BB8DB877268E20AC00D60504 /* GeologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DB876268E20AC00D60504 /* GeologistViewController.swift */; };
 		BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC7159F268C092A0044F56E /* ScienceViewController.swift */; };
@@ -65,12 +65,12 @@
 		A808E3C3268E37820058B2E7 /* ProfessorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorViewController.swift; sourceTree = "<group>"; };
 		A808E3C5268E37990058B2E7 /* FinancialAnalystViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAnalystViewController.swift; sourceTree = "<group>"; };
 		A808E3C7268E38E40058B2E7 /* EducationalPlatformsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationalPlatformsViewController.swift; sourceTree = "<group>"; };
-		A808E3C9268E38F40058B2E7 /* CampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsViewController.swift; sourceTree = "<group>"; };
 		A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipsViewController.swift; sourceTree = "<group>"; };
 		A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunitiesViewController.swift; sourceTree = "<group>"; };
 		A855A87D268E25990008346A /* AerospaceEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerospaceEngineerViewController.swift; sourceTree = "<group>"; };
 		A855A87F268E2A760008346A /* BiomedicalEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomedicalEngineerViewController.swift; sourceTree = "<group>"; };
 		A855A883268E2F2A0008346A /* ChemicalEngineerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalEngineerViewController.swift; sourceTree = "<group>"; };
+		A855A885268EAB6B0008346A /* CampsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampsViewController.swift; sourceTree = "<group>"; };
 		BB8DB874268E1E4F00D60504 /* BiologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiologistViewController.swift; sourceTree = "<group>"; };
 		BB8DB876268E20AC00D60504 /* GeologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeologistViewController.swift; sourceTree = "<group>"; };
 		BBC7159F268C092A0044F56E /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				A808E3C7268E38E40058B2E7 /* EducationalPlatformsViewController.swift */,
-				A808E3C9268E38F40058B2E7 /* CampsViewController.swift */,
+				A855A885268EAB6B0008346A /* CampsViewController.swift */,
 				A808E3CB268E390A0058B2E7 /* InternshipsViewController.swift */,
 				A808E3CD268E3DC80058B2E7 /* OpportunitiesViewController.swift */,
 			);
@@ -263,6 +263,7 @@
 				A808E3CE268E3DC80058B2E7 /* OpportunitiesViewController.swift in Sources */,
 				A808E3B9268E10870058B2E7 /* SoftwareDeveloperViewController.swift in Sources */,
 				A855A884268E2F2A0008346A /* ChemicalEngineerViewController.swift in Sources */,
+				A855A886268EAB6B0008346A /* CampsViewController.swift in Sources */,
 				A808E3AA268C19A60058B2E7 /* TechnologyViewController.swift in Sources */,
 				A808E387268BAC3E0058B2E7 /* ViewController.swift in Sources */,
 				A808E3B7268D63FB0058B2E7 /* DataScientistViewController.swift in Sources */,
@@ -279,7 +280,6 @@
 				A808E3A2268BE6700058B2E7 /* NoteCell.swift in Sources */,
 				A808E383268BAC3E0058B2E7 /* AppDelegate.swift in Sources */,
 				BBC715A0268C092A0044F56E /* ScienceViewController.swift in Sources */,
-				A808E3CA268E38F40058B2E7 /* CampsViewController.swift in Sources */,
 				A808E3BF268E18FE0058B2E7 /* EnvironmentalScientistViewController.swift in Sources */,
 				A808E3C4268E37820058B2E7 /* ProfessorViewController.swift in Sources */,
 				A808E385268BAC3E0058B2E7 /* SceneDelegate.swift in Sources */,

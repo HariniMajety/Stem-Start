@@ -19,9 +19,41 @@ class InternshipsViewController: UIViewController {
     
     @IBOutlet weak var princetonTextView: UITextView!
     
+
+    @IBAction func nasaButtonClicked(_ sender: Any) {
+        if let url = NSURL(string: "https://intern.nasa.gov/") {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
     
-    override func viewDidLoad() {
+    @IBAction func nationalInstiButtonClicked(_ sender: Any) {
+        if let url = NSURL(string: "https://www.training.nih.gov/programs/hs-sip") {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
+    @IBAction func nationalSecurityButtonClicked(_ sender: Any) {
+        if let url = NSURL(string: "https://www.intelligencecareers.gov/nsa/nsastudents.html") {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
+    @IBAction func sciAndEngiButtonClicked(_ sender: Any) {
+        if let url = NSURL(string: "http://seap.asee.org/") {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
+    @IBAction func princetonPlasmaButtonClicked(_ sender: Any) {
+        if let url = NSURL(string: "https://www.pppl.gov/education/science-education/programs/high-school-semester-long-internship-high-school-summer") {
+            UIApplication.shared.openURL(url as URL)
+        }
+    }
+    
+    
+      override func viewDidLoad() {
         super.viewDidLoad()
+      }
 
         // Do any additional setup after loading the view.
     }
@@ -37,4 +69,4 @@ class InternshipsViewController: UIViewController {
     }
     */
 
-}
+//}
