@@ -450,21 +450,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhs-98-X6v">
-                                <rect key="frame" x="169" y="453" width="76" height="19"/>
+                                <rect key="frame" x="169" y="418" width="76" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Salary and Growth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dI-6v-qYt">
-                                <rect key="frame" x="137" y="661" width="140" height="21"/>
+                                <rect key="frame" x="137" y="612" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="txB-ft-DeU">
-                                <rect key="frame" x="36" y="244" width="343" height="106"/>
+                                <rect key="frame" x="55" y="244" width="305" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">Geologists will spend their time studying the Earth itself. They will study different rocks and features of our planet. They also must create reports and complete projects.</string>
@@ -472,21 +472,21 @@
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="t4B-v8-tr9">
-                                <rect key="frame" x="37" y="690" width="342" height="104"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="acp-Eg-dcM">
+                                <rect key="frame" x="55" y="458" width="305" height="128.66666666666666"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <string key="text">The salary for a Geologist can range from 42k - 110k. There is 10% growth expected in the next few years for this career. 
-</string>
+                                <string key="text">The education necessary for a Geologist is a bachelor's degree in Geology or similar courses. However, different positions require a master's degree.</string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="acp-Eg-dcM">
-                                <rect key="frame" x="55" y="480" width="305" height="128.66666666666666"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="t4B-v8-tr9">
+                                <rect key="frame" x="55" y="641" width="305" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <string key="text">The education necessary for a Geologist is a bachelor's degree in Geology or similar courses. However, different positions require a master's degree</string>
+                                <string key="text">The salary for a Geologist can range from 42k - 110k. There is 10% growth expected in the next few years for this career. 
+</string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -597,7 +597,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="GU0-SE-ITv">
-                                <rect key="frame" x="10" y="221" width="394" height="316"/>
+                                <rect key="frame" x="27" y="221" width="366" height="316"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">Chemical engineers apply the principles of chemistry, biology, physics, and math to solve problems that involve the production or use of chemicals, fuel, drugs, food, and many other products. They design processes and equipment for large-scale manufacturing, plan and test production methods and byproducts treatment, and direct facility operations. They establish safety procedures for those working with dangerous chemicals. They develop processes for separating components of liquids and gases, or for generating electrical currents, by using controlled chemical processes.
@@ -614,7 +614,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Chemical engineers must have a bachelor’s degree in chemical engineering or a related field." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="wiV-Cc-BV9">
-                                <rect key="frame" x="20" y="574" width="373" height="73"/>
+                                <rect key="frame" x="36" y="574" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -753,8 +753,8 @@
                                     <action selector="nasaButtonClicked:" destination="wbu-k1-mwt" eventType="touchUpInside" id="9bZ-Wb-ela"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g1L-fC-4Le">
-                                <rect key="frame" x="6" y="325" width="398" height="95"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="g1L-fC-4Le">
+                                <rect key="frame" x="28" y="318" width="363" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">This internship provided by the National Institute of Health (NIH) provides students a wonderful opportunity to spend a summer working at the NIH alongside many renowned leading  scientists in the world. 
@@ -764,8 +764,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cTZ-HY-e5a">
-                                <rect key="frame" x="2" y="602" width="406" height="100"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="cTZ-HY-e5a">
+                                <rect key="frame" x="28" y="592" width="361" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">The Science and Engineering Apprenticeship Program (SEAP) provides an amazing opportunity for high school students to participate in research at a Department of Navy laboratory during the summer. 
@@ -775,8 +775,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Lu-Uv-us7">
-                                <rect key="frame" x="5" y="728" width="404" height="100"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7Lu-Uv-us7">
+                                <rect key="frame" x="28" y="709" width="366" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">Princeton offers an amazing internship to high schoolers, for courses ranging from 8 to 16 weeks. These courses offer students the chance to work on a project with a member of Princeton’s research or engineering staff.</string>
@@ -785,8 +785,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jxz-bq-iCV">
-                                <rect key="frame" x="8" y="451" width="398" height="133"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Jxz-bq-iCV">
+                                <rect key="frame" x="28" y="445" width="363" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">The NSA provides a wide selection of internships, jobs, and more throughout the states. They offer internships in Computer Science, Computer/Electrical Engineering, and Information Systems. They offer the best opportunities accustomed to everyone's situation at hand
@@ -797,7 +797,7 @@
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zr-Wy-MOl">
-                                <rect key="frame" x="109" y="299" width="198" height="32"/>
+                                <rect key="frame" x="109" y="293" width="198" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="National Institute of Health "/>
@@ -806,7 +806,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StP-nU-Q6e">
-                                <rect key="frame" x="26" y="428" width="363" height="32"/>
+                                <rect key="frame" x="26" y="415" width="363" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="National Security Agency High School Work Study"/>
@@ -815,7 +815,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tb-8I-u2d">
-                                <rect key="frame" x="26" y="575" width="363" height="32"/>
+                                <rect key="frame" x="28" y="569" width="363" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Science and Engineering Apprenticeship Program "/>
@@ -823,17 +823,8 @@
                                     <action selector="sciAndEngiButtonClicked:" destination="wbu-k1-mwt" eventType="touchUpInside" id="wGG-mK-tZ1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0c-ye-9eh">
-                                <rect key="frame" x="71" y="703" width="269" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Princeton Plasma Physics Laboratory"/>
-                                <connections>
-                                    <action selector="princetonPlasmaButtonClicked:" destination="wbu-k1-mwt" eventType="touchUpInside" id="qDG-fs-Efw"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bN0-Bs-0ws">
-                                <rect key="frame" x="4" y="188" width="409" height="116"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="bN0-Bs-0ws">
+                                <rect key="frame" x="28" y="188" width="361" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">NASA includes internships which are available from high school to graduate level. These internships provide students with the opportunity to participate in either research or other experiential learning, under the guidance of a mentor at NASA.
@@ -843,6 +834,15 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0c-ye-9eh">
+                                <rect key="frame" x="74" y="686" width="269" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Princeton Plasma Physics Laboratory"/>
+                                <connections>
+                                    <action selector="princetonPlasmaButtonClicked:" destination="wbu-k1-mwt" eventType="touchUpInside" id="qDG-fs-Efw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nFf-Pf-BgQ"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -857,7 +857,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZM-FU-pzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="3723"/>
+            <point key="canvasLocation" x="824.63768115942037" y="3722.5446428571427"/>
         </scene>
         <!--Biologist View Controller-->
         <scene sceneID="Dqm-qx-yJM">
@@ -897,7 +897,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="wrY-em-Zz5">
-                                <rect key="frame" x="39" y="242" width="337" height="130"/>
+                                <rect key="frame" x="58" y="242" width="305" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">A biologist focuses on and studies everything biotic and abiotic. They must perform research, create reports, and gather data.
@@ -907,16 +907,16 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="2hC-H2-kd3">
-                                <rect key="frame" x="39" y="409" width="343" height="128"/>
+                                <rect key="frame" x="58" y="409" width="305" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <string key="text"> A biologist will need a bachelor’s degree, but if they want management positions or anything higher, they need a masters degree. </string>
+                                <string key="text"> An aspriring biologist will at least need a bachelor’s degree at the very least in a field such as biology or something relative to it.  But if one should want management positions or anything higher, they need a masters degree. </string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="6zH-bO-lAu">
-                                <rect key="frame" x="39" y="665" width="343" height="106"/>
+                                <rect key="frame" x="58" y="665" width="305" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <string key="text">The salary of a biologist can range from 37k - 89k. The expected growth is about 4% in the next few years.
@@ -1414,22 +1414,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_1" translatesAutoresizingMaskIntoConstraints="NO" id="PdA-Wz-NdR">
-                                <rect key="frame" x="105" y="595" width="451" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_2" translatesAutoresizingMaskIntoConstraints="NO" id="msu-ia-t82">
-                                <rect key="frame" x="214" y="291" width="214" height="118"/>
+                                <rect key="frame" x="248" y="655" width="153" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_3" translatesAutoresizingMaskIntoConstraints="NO" id="GkB-KD-Q4n">
-                                <rect key="frame" x="197" y="428" width="197" height="119"/>
+                                <rect key="frame" x="241" y="542" width="153" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stem Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tg-6J-E6e">
-                                <rect key="frame" x="94" y="123" width="248" height="60"/>
+                                <rect key="frame" x="71" y="123" width="296" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="55"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="55"/>
                                 <color key="textColor" red="0.58856496000000003" green="0.58856496000000003" blue="0.58856496000000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
@@ -1442,7 +1438,7 @@
                                 <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_5" translatesAutoresizingMaskIntoConstraints="NO" id="xSw-JB-ClC">
-                                <rect key="frame" x="0.0" y="367" width="206" height="163"/>
+                                <rect key="frame" x="250" y="367" width="147" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yha-Rs-sQ8">
@@ -1454,15 +1450,23 @@
                                 <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_7" translatesAutoresizingMaskIntoConstraints="NO" id="U9U-3m-Ivp">
-                                <rect key="frame" x="0.0" y="555" width="263" height="90"/>
+                                <rect key="frame" x="11" y="683" width="229" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shutterstock_1668882916-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="wa5-yt-tDT">
-                                <rect key="frame" x="-24" y="653" width="287" height="160"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_8" translatesAutoresizingMaskIntoConstraints="NO" id="wa5-yt-tDT">
+                                <rect key="frame" x="11" y="186" width="250" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_4" translatesAutoresizingMaskIntoConstraints="NO" id="HyK-zI-DzJ">
-                                <rect key="frame" x="13" y="191" width="213" height="178"/>
+                                <rect key="frame" x="19" y="354" width="213" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_9" translatesAutoresizingMaskIntoConstraints="NO" id="js0-Hg-2Yr">
+                                <rect key="frame" x="260" y="256" width="140" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM_2" translatesAutoresizingMaskIntoConstraints="NO" id="msu-ia-t82">
+                                <rect key="frame" x="20" y="519" width="212" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1707,7 +1711,7 @@
                                 <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Df-we-hty">
-                                <rect key="frame" x="-112" y="533" width="287" height="229"/>
+                                <rect key="frame" x="-29" y="358" width="287" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
                                 <state key="normal" title="Camps" backgroundImage="rhombus">
@@ -1717,12 +1721,8 @@
                                     <action selector="camps" destination="TCk-eg-Cfi" eventType="touchUpInside" id="z5B-8x-HEn"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opportunitiesIcon" translatesAutoresizingMaskIntoConstraints="NO" id="uKo-q6-Ung">
-                                <rect key="frame" x="113" y="595" width="183" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1m-Um-0md">
-                                <rect key="frame" x="61" y="358" width="287" height="229"/>
+                                <rect key="frame" x="158" y="184" width="287" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
                                 <state key="normal" title="Educational Platforms" backgroundImage="rhombus">
@@ -1733,7 +1733,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V27-eb-C8E">
-                                <rect key="frame" x="230" y="533" width="287" height="229"/>
+                                <rect key="frame" x="158" y="559" width="287" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
                                 <state key="normal" title="Internships    " backgroundImage="rhombus">
@@ -1743,6 +1743,10 @@
                                     <action selector="internships" destination="TCk-eg-Cfi" eventType="touchUpInside" id="jcb-1W-6dO"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opportunitiesIcon" translatesAutoresizingMaskIntoConstraints="NO" id="uKo-q6-Ung">
+                                <rect key="frame" x="211" y="421" width="183" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fj2-2j-EJV"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1768,8 +1772,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Edutopia provides resources and downloads for STEM, including projects and cross-learning activities." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B6K-SS-nTL">
-                                <rect key="frame" x="29" y="177" width="357" height="72"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Edutopia provides resources and downloads for STEM, including projects and cross-learning activities." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="B6K-SS-nTL">
+                                <rect key="frame" x="37" y="180" width="357" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1777,8 +1781,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Codecademy provides free courses on computer programming. Learn HTML, Python, JavaScript, and more!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gki-0T-OBp">
-                                <rect key="frame" x="15" y="264" width="393" height="79"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Codecademy provides free courses on computer programming. Learn HTML, Python, JavaScript, and more!" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gki-0T-OBp">
+                                <rect key="frame" x="37" y="267" width="346" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1786,8 +1790,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text=" Girls Who Code provides resources including how to start club chapters and coding projects to do at home." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="STj-4P-QXh">
-                                <rect key="frame" x="20" y="351" width="383" height="79"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text=" Girls Who Code provides resources including how to start club chapters and coding projects to do at home." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="STj-4P-QXh">
+                                <rect key="frame" x="37" y="351" width="346" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1795,8 +1799,8 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Khan Academy - Khan Academy provides top-notch educational courses in everything from computer science to calculus to physics." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jkg-ny-80k">
-                                <rect key="frame" x="35" y="542" width="353" height="99"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Khan Academy - Khan Academy provides top-notch educational courses in everything from computer science to calculus to physics." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Jkg-ny-80k">
+                                <rect key="frame" x="37" y="533" width="346" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1804,20 +1808,11 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Society of Women Engineers provides leadership courses, scholarships, and resources for women entering the engineering field. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HK6-70-Ltr">
-                                <rect key="frame" x="10" y="649" width="407" height="66.333333333333329"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="HK6-70-Ltr">
+                                <rect key="frame" x="37" y="627" width="346" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="myf-L5-lPx">
-                                <rect key="frame" x="-7" y="746" width="428" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray5Color"/>
-                                <string key="text">National Girls Collaborative Project provides blogs, tools, and information on how girls can equip themselves for entering STEM fields. </string>
+                                <string key="text">The Society of Women Engineers provides leadership courses, scholarships, and resources for women entering the engineering field. </string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1855,7 +1850,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-St-4ou">
-                                <rect key="frame" x="122" y="418" width="170" height="33"/>
+                                <rect key="frame" x="122" y="409" width="170" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Code.org"/>
@@ -1863,8 +1858,8 @@
                                     <action selector="codeorgButtonClicked:" destination="Hv5-9a-niC" eventType="touchUpInside" id="sM7-it-cjP"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vdk-1Q-a55">
-                                <rect key="frame" x="23" y="438" width="368" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Vdk-1Q-a55">
+                                <rect key="frame" x="37" y="426" width="346" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Code.org provides courses and projects to teach any age level how to code. Their “Hour of Code” activities allow users to complete a coding project in just one hour.</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1872,7 +1867,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z0-Wm-Kyh">
-                                <rect key="frame" x="147" y="508" width="110" height="58"/>
+                                <rect key="frame" x="148" y="500" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Khan Academy"/>
@@ -1881,7 +1876,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAj-Z4-xr0">
-                                <rect key="frame" x="35" y="597" width="335" height="83"/>
+                                <rect key="frame" x="91" y="608" width="232" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Society of Women Engineers"/>
@@ -1890,7 +1885,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQL-ji-Bn6">
-                                <rect key="frame" x="79" y="722" width="256" height="32"/>
+                                <rect key="frame" x="79" y="706" width="256" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title=" National Girls Collaborative Project"/>
@@ -1906,6 +1901,16 @@
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="myf-L5-lPx">
+                                <rect key="frame" x="37" y="726" width="346" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <string key="text">National Girls Collaborative Project provides blogs, tools, and information on how girls can equip themselves for entering STEM fields. </string>
+                                <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0SE-Rv-dBB"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -1941,8 +1946,8 @@
                                     <action selector="kwkButtonClicked:" destination="GKi-V0-90A" eventType="touchUpInside" id="DaF-q9-Sha"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3fj-Jt-uVQ">
-                                <rect key="frame" x="8" y="183" width="398" height="83"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3fj-Jt-uVQ">
+                                <rect key="frame" x="30" y="183" width="364" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Kode With Klossy is a free two-week summer program for young women ages 13 to 18 that teaches them to build real-life applications, regardless of experience.</string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1950,7 +1955,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kZ-jS-z2J">
-                                <rect key="frame" x="95" y="281" width="225" height="32"/>
+                                <rect key="frame" x="95" y="264" width="225" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Project Scientist STEM Camps "/>
@@ -1959,7 +1964,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2n-AL-QCf">
-                                <rect key="frame" x="177" y="414" width="61" height="32"/>
+                                <rect key="frame" x="177" y="392" width="61" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="GirlStart"/>
@@ -1967,32 +1972,24 @@
                                     <action selector="girlStartbuttonClicked:" destination="GKi-V0-90A" eventType="touchUpInside" id="jig-jl-YHF"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zcz-Jd-Ftc">
-                                <rect key="frame" x="2" y="309" width="410" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Offering a variety of events to get involved in, such as summer STEM opportunities and year-round expeditions. Project Scientist is an organization dedicated to empowerment and inclusivity in a variety of STEM subjects.</string>
-                                <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-1H-B6W">
-                                <rect key="frame" x="4" y="438" width="406" height="133"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-1H-B6W">
+                                <rect key="frame" x="30" y="411" width="364" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Through its comprehensive programming, GirlStart provides a year-round intensive suite of STEM education programs for K-12 girls. It’s core programs foster STEM skills development and understanding of the importance of STEM as a way to solve the world’s major problems, as well as an interest in STEM electives, majors, and careers.</string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qX4-ef-YZb">
-                                <rect key="frame" x="4" y="604" width="406" height="133"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="qX4-ef-YZb">
+                                <rect key="frame" x="30" y="583" width="364" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Typically targeted towards high scholars (especially females and underrepresented populations), the Texas Computer Science Camps are designed to introduce students to computing, problem-solving, robotics, and cybersecurity</string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zv9-0E-KOD">
-                                <rect key="frame" x="17" y="719" width="386" height="133"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zv9-0E-KOD">
+                                <rect key="frame" x="30" y="699" width="364" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Made for girls from middle school and beyond. GEMS’ normally residential 1 week summer camp is meant to provide an interactive learning environment in which girls can feel engaged and confident. </string>
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2000,7 +1997,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDf-9O-1mA">
-                                <rect key="frame" x="78" y="579" width="242" height="30"/>
+                                <rect key="frame" x="78" y="562" width="242" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="UT Austin Computer Science Camp"/>
                                 <connections>
@@ -2008,7 +2005,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMQ-ug-KW0">
-                                <rect key="frame" x="185" y="699" width="45" height="32"/>
+                                <rect key="frame" x="185" y="680" width="45" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="GEMS"/>
@@ -2024,6 +2021,14 @@
                                 <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.60368732489999999" green="0.57604089329999997" blue="0.55861334750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="zcz-Jd-Ftc">
+                                <rect key="frame" x="30" y="286" width="364" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Offering a variety of events to get involved in, such as summer STEM opportunities and year-round expeditions. Project Scientist is an organization dedicated to empowerment and inclusivity in a variety of STEM subjects.</string>
+                                <color key="textColor" red="0.1137254902" green="0.16078431369999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sq6-45-Asa"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -2038,7 +2043,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3C-P4-peN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="3058"/>
+            <point key="canvasLocation" x="824.63768115942037" y="3057.5892857142858"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nDC-1O-wvh">
@@ -2060,7 +2065,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iD1-VL-eby"/>
+        <segue reference="wvx-zW-hKk"/>
         <segue reference="GoI-WY-Qfl"/>
         <segue reference="u4w-Lw-feW"/>
     </inferredMetricsTieBreakers>
@@ -2071,6 +2076,8 @@
         <image name="STEM_4" width="1600" height="900"/>
         <image name="STEM_5" width="704" height="808"/>
         <image name="STEM_7" width="1280" height="500"/>
+        <image name="STEM_8" width="645" height="387"/>
+        <image name="STEM_9" width="1400" height="829"/>
         <image name="atom" catalog="system" width="119" height="128"/>
         <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="engineeringIcon" width="517" height="483"/>
@@ -2081,7 +2088,6 @@
         <image name="puzzlepiece.fill" catalog="system" width="128" height="80"/>
         <image name="rhombus" width="225" height="224"/>
         <image name="scale.3d" catalog="system" width="128" height="112"/>
-        <image name="shutterstock_1668882916-removebg-preview (1)" width="645" height="387"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <image name="technologyIcon" width="595" height="419"/>
         <image name="trash" catalog="system" width="121" height="128"/>
