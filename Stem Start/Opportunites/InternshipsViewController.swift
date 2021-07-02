@@ -8,7 +8,18 @@
 import UIKit
 
 class InternshipsViewController: UIViewController {
-
+    
+    @IBOutlet weak var nasaTextView: UITextView!
+    
+    @IBOutlet weak var nihTextView: UITextView!
+    
+    @IBOutlet weak var nsaTextView: UITextView!
+    
+    @IBOutlet weak var seapTextView: UITextView!
+    
+    @IBOutlet weak var princetonTextView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

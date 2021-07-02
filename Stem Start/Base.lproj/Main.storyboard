@@ -560,6 +560,13 @@
                         <viewLayoutGuide key="safeArea" id="nFf-Pf-BgQ"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                     </view>
+                    <connections>
+                        <outlet property="nasaTextView" destination="bN0-Bs-0ws" id="Vii-4b-HNe"/>
+                        <outlet property="nihTextView" destination="g1L-fC-4Le" id="13Y-KT-cSI"/>
+                        <outlet property="nsaTextView" destination="Jxz-bq-iCV" id="BOS-Rq-I6t"/>
+                        <outlet property="princetonTextView" destination="7Lu-Uv-us7" id="hUP-ha-p5B"/>
+                        <outlet property="seapTextView" destination="cTZ-HY-e5a" id="ji3-vt-dI6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZM-FU-pzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="bmR-CS-L2R" userLabel="Exit" sceneMemberID="exit"/>
@@ -1557,10 +1564,17 @@
                         <viewLayoutGuide key="safeArea" id="Sq6-45-Asa"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                     </view>
+                    <connections>
+                        <outlet property="gemsTextView" destination="zv9-0E-KOD" id="ABg-6E-WBr"/>
+                        <outlet property="girlStartTextView" destination="PLX-1H-B6W" id="0YO-lp-U2p"/>
+                        <outlet property="kwkTextView" destination="3fj-Jt-uVQ" id="n1d-nD-5vG"/>
+                        <outlet property="projScientistTextView" destination="zcz-Jd-Ftc" id="XUB-qC-9sX"/>
+                        <outlet property="utcsTextView" destination="qX4-ef-YZb" id="N6m-9F-yEr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3C-P4-peN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824.63768115942037" y="3748.6607142857142"/>
+            <point key="canvasLocation" x="825" y="3757"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nDC-1O-wvh">

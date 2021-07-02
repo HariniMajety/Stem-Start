@@ -9,6 +9,17 @@ import UIKit
 
 class CampsViewController: UIViewController {
 
+    @IBOutlet weak var kwkTextView: UITextView!
+    
+    @IBOutlet weak var projScientistTextView: UITextView!
+    
+    @IBOutlet weak var girlStartTextView: UITextView!
+    
+    @IBOutlet weak var utcsTextView: UITextView!
+    
+    @IBOutlet weak var gemsTextView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +27,5 @@ class CampsViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation/Users/ scholar/Documents/Stem-Start/Stem Start/Technology
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
